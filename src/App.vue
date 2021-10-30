@@ -11,8 +11,15 @@
 
 <style lang="scss">
 @import "~@/assets/scss/vendors/bootstrap-vue/index";
+
+@font-face {
+  font-family: "Inconsolata";
+  src: local("Inconsolata"),
+   url(./assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.ttf) format("truetype");
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inconsolata, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

@@ -16,7 +16,7 @@ export default {
 </script>
 <style lang="scss">
 .home{
-  background: blue;
+  background: #181818;
   height: 100vh;
   width: 100vw;
 }
