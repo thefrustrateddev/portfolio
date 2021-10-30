@@ -1,17 +1,20 @@
 <template>
   <div class="header">
     <div class="logo section">
-      <img src="@/assets/test.png">
+      <img src="@/assets/logo.png">
     </div>
     <div class="options section">
       <div class="menu-option projects">
-        Projects
+        <div>Projects</div>
+        <div class="bar" />
       </div>
       <div class="menu-option blogs">
         Blogs
+        <div class="bar" />
       </div>
       <div class="menu-option contact">
         Contact me
+        <div class="bar" />
       </div>
     </div>
   </div>
@@ -28,6 +31,7 @@ export default {
 };
 </script>
 <style lang="scss">
+
 .header {
   // background-color: rgba(0, 0, 0, 0.3);
   // backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
@@ -60,6 +64,18 @@ export default {
       padding-right:30px;
       cursor: pointer;
       font-size: 18px;
+      .bar{
+        width: 0px;
+        background: #e99202;
+        height: 3px;
+        margin-top: 3px;
+        transition: all 0.4s ease;
+      }
+      &:hover{
+        .bar{
+          width: 100%;
+        }
+      }
     }
   }
 }
