@@ -1,0 +1,37 @@
+{
+    "editor.formatOnSave": true,
+  //   "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.enable": false,
+    "eslint.run": "onSave",
+    "vetur.format.scriptInitialIndent": true,
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "editor.autoFixOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": false
+        },
+        {
+            "language": "html",
+            "autoFix": false
+        },
+    ],
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "schroeter.prettier-vscode-space-parenthesis"
+    },
+    "eslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+  }
+  

@@ -1,55 +1,66 @@
 <template>
   <div class="header">
     <div class="logo section">
-      Logo
+      <img src="@/assets/test.png">
     </div>
-    <div class="option section">
-      <div class="Projects">
+    <div class="options section">
+      <div class="menu-option projects">
         Projects
       </div>
-      <div class="Blogs">
+      <div class="menu-option blogs">
         Blogs
       </div>
-      <div class="Contact me">
+      <div class="menu-option contact">
         Contact me
       </div>
     </div>
   </div>
 </template>
 <script>
-import { defineComponent } from '@vue/composition-api';
-
-export default defineComponent({
-  setup() {
+export default {
+  name: 'Home',
+  components: {
 
   },
-});
+  mounted() {
+
+  },
+};
 </script>
 <style lang="scss">
-.header{
-  background: black;
+.header {
+  // background-color: rgba(0, 0, 0, 0.3);
+  // backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
   color: white;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 90px;
-
-  .section{
+  padding: 20px;
+  .section {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
-  }
-  .logo{
 
-    flex: 0 0 100px;
   }
-  .option{
-justify-content: flex-end;
-    background: red;
+  .logo {
+    flex: 0 0 200px;
+    display: flex;
+    justify-content: flex-start;
+    img {
+      height:100%
+    }
+  }
+  .options {
+    justify-content: flex-end;
     flex: 1;
+    .menu-option {
+      padding-right:30px;
+      cursor: pointer;
+      font-size: 18px;
+    }
   }
 }
 </style>
