@@ -6,7 +6,8 @@
         <img src="@/assets/home.png">
       </div>
       <div class="text">
-        Hello I am Shubham pramanick!!
+        <!-- <img src="@/assets/under_construction.png"> -->
+        Site Under Construction!!
       </div>
     </div>
   </div>
@@ -37,8 +38,16 @@ export default {
       img{
         height: 100%;
       }
-      .text{
 
+    }
+    .text{
+      height: 100%;
+      font-size: 84px;
+      padding-top: 268px;
+      color: #e99202;
+      font-weight: 800;
+      img {
+        height: 100%;
       }
     }
 
