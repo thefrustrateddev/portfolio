@@ -6,7 +6,7 @@
         <img src="@/assets/home.png">
       </div>
       <div class="text">
-        Hello I am Shubham pramanick
+        Hello I am Shubham pramanick!!
       </div>
     </div>
   </div>
