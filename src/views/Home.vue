@@ -5,21 +5,29 @@
       <div class="image">
         <img src="@/assets/home.png">
       </div>
-      <div class="text">
-        <!-- <img src="@/assets/under_construction.png"> -->
+      <!-- <div class="text">
+        <img src="@/assets/under_construction.png">
         Site Under Construction!!
-      </div>
+      </div> -->
+      <!-- <div class="tagcloud" /> -->
+      <TagCloud />
     </div>
   </div>
 </template>
 
 <script>
+
 import Header from '@/components/Header.vue';
+import TagCloud from '@/components/TagCloud.vue';
 
 export default {
   name: 'Home',
   components: {
     Header,
+    TagCloud,
+  },
+  mounted() {
+
   },
 };
 </script>
@@ -51,6 +59,9 @@ export default {
       }
     }
 
+  }
+  .tagcloud{
+    width: 500px;
   }
 }
 </style>
