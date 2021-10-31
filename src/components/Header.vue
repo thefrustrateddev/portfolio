@@ -13,7 +13,7 @@
         <div class="bar" />
       </div>
       <div class="menu-option contact">
-        Contact me
+        Contact Me
         <div class="bar" />
       </div>
     </div>
