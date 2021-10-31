@@ -48,5 +48,6 @@ export default {
 <style lang="scss">
     .tagcloud--item{
         color: #e89203;
+        font-size: 18px;
     }
 </style>
